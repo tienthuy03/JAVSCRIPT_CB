@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js</title>
+    </head>
+    <body>
+        <script>
+            
+           /* let traicay = new Array('buoi', 'xoai', 'cam', 'quyt', 'oi');
+            /* let traicay = new Array(5);
+            traicay[0] = 'buoi';
+            traicay[1] = 'cam';
+            traicay[2] = 'quyt';
+            traicay[3] = 'xoai';
+            traicay[4] = 'oi';  
+           // document.write(traicay); */
+
+           let number = new Array(1,3,5,7,8,9);
+           number.splice(2, 0, 4, 5); // thêm phần tử vào mảng theo 1 vị trí xác định
+           /*  
+           cú pháp :  arr.splice(index, howmany, item1, ....., itemX)
+                     arr là tên biến mảng các bạn muốn thêm vào.
+                     index là vị trí mà các bạn muốn thêm phần tử vào (bắt đầu từ 0).
+                    howmany là số phần tử sẽ xóa tính tự vị trí thêm mảng, để 0 nếu không muốn xóa phần tử nào.
+                     item1,...itemX là giá trị của các phần tử muốn thêm vào.
+           */
+           number.shift(); // xoá các phần tử đầu tiên trong mảng
+           number.unshift(6,10); // thêm 1 hoặc nhiều vào đầu dòng
+           number.pop(); // cắt phần tử cuối của mảng
+           number.push(2);  // push(): thêm 1 hoặc nhiều các phần tử vào cuối mảng
+           document.write(number.join('-') + "<br/>");  // ngăn cách bởi dấu(-)
+           document.write(number.join() + '<br>');
+           /*join(): Hàm này có tác dụng gộp tất cả các phần tử có trong mảng thành một chuỗi.cách nhau bởi dấu (,)
+           cú pháp : tên mảng . join() *\
+           
+/*khai báo mảng arr bằng từ khoa [new Array()]
+Array la tên biếng mảng 
+index la vị trí của mảng bắt đầu từ 0   
+ví dụ : document.write(traicay[0]); xuất ra đc tên trá cây của phàn thử thứ 0*/ 
+
+        </script>
+    </body>
+</html>
+<!--còn 1 số kiểu mảng như:
+     Hàm concat() : -Hàm này có tác dụng ghép 2 mảng lại với nhau. 
+     Hàm slice(): cú pháp :  arr.slice(begin,end); 
+                           arr là tên biến mảng các bạn muốn thêm vào.
+                            begin là vị trí bắt đầu.
+                            end là vị trí kết thúc, nếu muốn cắt từ vị trí đầu đến hết thì bỏ trống giá trị này.
+       Hàm sort() :    Hàm này có tác dụng sắp xếp lại mảng theo chiều tăng dần, nếu là số thì từ bé đến lớn, chữ thì sắp xếp theo alpha(a-z).                 
+     Hàm reverse() :Hàm này có tác dụng đảo ngược vị trí các phần tử của mảng.
+    -->
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js</title>
+    </head>
+    <body>
+        <script>
+            
+           /* let traicay = new Array('buoi', 'xoai', 'cam', 'quyt', 'oi');
+            /* let traicay = new Array(5);
+            traicay[0] = 'buoi';
+            traicay[1] = 'cam';
+            traicay[2] = 'quyt';
+            traicay[3] = 'xoai';
+            traicay[4] = 'oi';  
+           // document.write(traicay); */
+
+           let number = new Array(1,3,5,7,8,9);
+           number.splice(2, 0, 4, 5); // thêm phần tử vào mảng theo 1 vị trí xác định
+           /*  
+           cú pháp :  arr.splice(index, howmany, item1, ....., itemX)
+                     arr là tên biến mảng các bạn muốn thêm vào.
+                     index là vị trí mà các bạn muốn thêm phần tử vào (bắt đầu từ 0).
+                    howmany là số phần tử sẽ xóa tính tự vị trí thêm mảng, để 0 nếu không muốn xóa phần tử nào.
+                     item1,...itemX là giá trị của các phần tử muốn thêm vào.
+           */
+           number.shift(); // xoá các phần tử đầu tiên trong mảng
+           number.unshift(6,10); // thêm 1 hoặc nhiều vào đầu dòng
+           number.pop(); // cắt phần tử cuối của mảng
+           number.push(2);  // push(): thêm 1 hoặc nhiều các phần tử vào cuối mảng
+           document.write(number.join('-') + "<br/>");  // ngăn cách bởi dấu(-)
+           document.write(number.join() + '<br>');
+           /*join(): Hàm này có tác dụng gộp tất cả các phần tử có trong mảng thành một chuỗi.cách nhau bởi dấu (,)
+           cú pháp : tên mảng . join() *\
+           
+/*khai báo mảng arr bằng từ khoa [new Array()]
+Array la tên biếng mảng 
+index la vị trí của mảng bắt đầu từ 0   
+ví dụ : document.write(traicay[0]); xuất ra đc tên trá cây của phàn thử thứ 0*/ 
+
+        </script>
+    </body>
+</html>
+<!--còn 1 số kiểu mảng như:
+     Hàm concat() : -Hàm này có tác dụng ghép 2 mảng lại với nhau. 
+     Hàm slice(): cú pháp :  arr.slice(begin,end); 
+                           arr là tên biến mảng các bạn muốn thêm vào.
+                            begin là vị trí bắt đầu.
+                            end là vị trí kết thúc, nếu muốn cắt từ vị trí đầu đến hết thì bỏ trống giá trị này.
+       Hàm sort() :    Hàm này có tác dụng sắp xếp lại mảng theo chiều tăng dần, nếu là số thì từ bé đến lớn, chữ thì sắp xếp theo alpha(a-z).                 
+     Hàm reverse() :Hàm này có tác dụng đảo ngược vị trí các phần tử của mảng.
+    -->
+

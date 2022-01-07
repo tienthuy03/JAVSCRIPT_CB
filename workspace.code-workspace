@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\java_nhom"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\WEB1013"
+		},
+		{
+			"path": "..\\..\\html_css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascript_coban"
+	}
+}
